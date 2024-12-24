@@ -28,8 +28,8 @@ function App() {
             type="text"
             name="word"
             id="word"
-            onMouseOver={(e) => (e.target.style.width = '100%')}
-            onMouseOut={(e) => (e.target.style.width = '100%')}
+            onMouseOver={(e) => (e.target.style.width = '600px')}
+            onMouseOut={(e) => (e.target.style.width = '400px')}
             placeholder="Type word here"
             onChange={(e) => setWord(e.target.value)}
             value={word}
